@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+* {
+  /* background-color: cadetblue; */
+  font-family: "Courgette", sans-serif;
+}
+
+.images {
+  max-width: 1000px;
+  margin: auto;
+}
+/* .images img {
+  display: inline-block;
+} */
+body {
+  text-align: center;
+}
+
+#image0 {
+  /* padding: 20px; */
+  margin: 5px;
+  /* width: 200px; */
+  display: inline-block;
+}
+
+/* .inputs input {
+  margin-top: 20px;
+  width: 2em;
+  height: 2em;
+  margin-bottom: 20px;
+  min-width: 50%;
+} */
+
+.alphabet button {
+  /* padding: auto; */
+  /* padding-top: 30px; */
+  align-content: center;
+  text-align: center;
+  margin: 1px;
+  margin-top: 20px;
+  width: 3em;
+  height: 2em;
+}
+.refreshBtn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.secondaryContent {
+  padding-top: 30px;
+}
+/* input::value {
+  text-color: black solid;
+} */
+
+.secondaryContent input {
+  margin-top: 10px;
+  width: 13em;
+}
+.word {
+  min-height: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#delete {
+  margin: 10px;
+}

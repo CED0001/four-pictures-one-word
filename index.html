@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four pictures one word</title>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Style file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- main game container -->
+    <div class="container">
+      <h1>4 pictures 1 word</h1>
+      <div class="images"></div>
+      <br />
+      <div class="inputs">
+        <template id="templateInput">
+          <!-- <input
+            type="text"
+            id="written"
+            disabled
+            placeholder="Which word is illustrated?"
+          /> -->
+          <button class="word"></button>
+        </template>
+      </div>
+      <button id="delete">Delete</button>
+      <br />
+      <div class="alphabet">
+        <button class="alphabetBtn">A</button>
+        <button class="alphabetBtn">B</button>
+        <button class="alphabetBtn">C</button>
+        <button class="alphabetBtn">D</button>
+        <button class="alphabetBtn">E</button>
+        <button class="alphabetBtn">F</button>
+        <button class="alphabetBtn">G</button>
+        <button class="alphabetBtn">H</button>
+        <button class="alphabetBtn">I</button>
+        <button class="alphabetBtn">J</button>
+        <button class="alphabetBtn">K</button>
+        <button class="alphabetBtn">L</button>
+        <button class="alphabetBtn">M</button>
+        <button class="alphabetBtn">N</button>
+        <button class="alphabetBtn">O</button>
+        <button class="alphabetBtn">P</button>
+        <button class="alphabetBtn">Q</button>
+        <button class="alphabetBtn">R</button>
+        <button class="alphabetBtn">S</button>
+        <button class="alphabetBtn">T</button>
+        <button class="alphabetBtn">U</button>
+        <button class="alphabetBtn">V</button>
+        <button class="alphabetBtn">W</button>
+        <button class="alphabetBtn">X</button>
+        <button class="alphabetBtn">Y</button>
+        <button class="alphabetBtn">Z</button>
+      </div>
+      <button class="refreshBtn">Refresh</button>
+    </div>
+    <div class="secondaryContent">
+      <p>Add a word to the list!</p>
+      <form>
+        <input
+          type="text"
+          name="word0"
+          value=""
+          placeholder="main term/first"
+        />
+        <br />
+        <input
+          type="text"
+          value=""
+          name="word1"
+          placeholder="second picture search term"
+        />
+        <br />
+        <input
+          type="text"
+          value=""
+          name="word2"
+          placeholder="second picture search term"
+        />
+        <br />
+        <input
+          type="text"
+          value=""
+          name="wprd3"
+          placeholder="third picture search term"
+        />
+        <br />
+        <br />
+        <button class="addWordBtn" type="submit">Add</button>
+        <br />
+      </form>
+
+      <br />
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1"
+        >Click for a surprise
+      </a>
+      <br />
+      <!-- <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1;"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
+    </div>
+    <script type="module" src="app.js" defer></script>
+  </body>
+</html>
