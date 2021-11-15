@@ -131,6 +131,7 @@ $(function () {
     $(".inputs").empty(); //empty inputs
     dataController.addWord(word0, word1, word2, word3);
     console.log(dataController.show());
+    setup();
   });
 
   /**
